@@ -59,7 +59,7 @@ class Stack {
 
     swap () {
         if (this.#arr.length < 2) {
-            throw new Error("Недостаточно элементов для обмена.");
+            throw new Error("Недостаточно элементов для обмена");
         }
         [this.#arr[this.#arr.length - 1], this.#arr[this.#arr.length - 2]] = 
         [this.#arr[this.#arr.length - 2], this.#arr[this.#arr.length - 1]];
